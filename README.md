@@ -32,3 +32,8 @@ https://xkcd.com/936/
 ## Toma de notas
 
 * [Standar Notes](https://standardnotes.org)
+
+## Navegar sin que nuestro proveedor de Internet pueda espiarnos
+
+* OpenVPN
+* ProtonVPN
