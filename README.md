@@ -17,6 +17,21 @@ https://xkcd.com/936/
 
 * LUKS con passphrase generada por diceware.
 
+### Tarjeta SD encriptada
+
+#### Creación
+* Crear partición tipo Linux (83) en `/dev/mmcblk0p1`
+* `cryptsetup luksFormat --type luks2 /dev/mmcblk0p1`
+* Ingresar passphrase.
+* `cryptsetup open /dev/mmcblk0p1 sdcrypt`
+* `mkfs.ext4 /dev/mapper/sdcrypt`
+* `cryptsetup close sdcrypt`
+
+#### Uso
+* `cryptsetup open /dev/mmcblk0p1 sdcrypt`
+* `mount /dev/mapper/sdcrypt /mnt/`
+* `cryptsetup close sdcrypt`
+
 ## Mail
 
 * Proton Mail
