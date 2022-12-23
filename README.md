@@ -13,6 +13,8 @@ Higiene digital básica
 
 https://xkcd.com/936/
 
+* Cuidado con Lastpass: https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/
+
 ## Filesystem
 
 * LUKS con passphrase generada por diceware.
