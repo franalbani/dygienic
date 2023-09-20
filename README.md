@@ -37,14 +37,22 @@ https://xkcd.com/936/
 ## Mail
 
 * Proton Mail
+    * aunque hay quienes desconfían: https://www.devever.net/~hl/webcrypto
 
 ## Videollamada
 
 * jitsi
 
+## Documentos compartidos
+
+* [Cryptpad](https://cryptpad.fr)
+
 ## Mensajería
 
 * Signal
+    * aunque hay quienes desconfían: https://blog.dijit.sh/i-don-t-trust-signal
+
+¡Cuidado con Telegram!
 
 ## Toma de notas
 
@@ -52,5 +60,4 @@ https://xkcd.com/936/
 
 ## Navegar sin que nuestro proveedor de Internet pueda espiarnos
 
-* OpenVPN
 * ProtonVPN
